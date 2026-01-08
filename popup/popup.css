@@ -1,0 +1,35 @@
+.main-content {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px;
+  padding: 5px;
+  width: 250px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  align-self: center;
+  margin-bottom: 6px;
+}
+
+#url-input, #filename-input {
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid lightskyblue;
+}
+
+#download-btn {
+  border-radius: 5px;
+  padding: 8px 16px;
+  background-color: lightskyblue;
+  border: none;
+
+  &:hover {
+    background-color: skyblue;
+    cursor: pointer;
+  }
+}
