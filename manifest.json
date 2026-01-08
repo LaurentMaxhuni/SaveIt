@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "SaveIt: Simple Video Downloader",
+  "name": "SaveIt: Simple File Downloader",
   "version": "1.0",
-  "description": "Download videos from direct URLs",
+  "description": "Download files from direct URLs",
   "permissions": ["downloads"],
   "action": {
     "default_popup": "popup/popup.html",
