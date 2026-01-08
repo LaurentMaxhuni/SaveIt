@@ -14,44 +14,20 @@
 
 ---
 
-## Installation (CRX File)
+## Installation (Load Unpacked)
 
-⚠️ **Important:** Chrome blocks direct installation of `.crx` files that are not from the Chrome Web Store. This is normal Chrome behavior.
+SaveIt is provided as source files. Install it as an unpacked extension:
 
-### Recommended Method (Always Works)
-
-#### Install via “Load Unpacked”
-
-1. Download the `SaveIt.crx` file.
-2. Rename it:
-   ```
-   SaveIt.crx → SaveIt.zip
-   ```
-3. Extract the ZIP file into a folder.
-4. Open Chrome and go to:
+1. Download or clone this repository.
+2. Keep the files in a folder (the folder must contain `manifest.json`).
+3. Open Chrome and go to:
    ```
    chrome://extensions
    ```
-5. Enable **Developer mode** (top-right).
-6. Click **Load unpacked**.
-7. Select the extracted **SaveIt** folder.
-8. SaveIt is now installed.
-
----
-
-### Alternative Method (May Be Blocked)
-
-> This method may not work on newer Chrome versions.
-
-1. Open:
-   ```
-   chrome://extensions
-   ```
-2. Enable **Developer mode**.
-3. Drag and drop `SaveIt.crx` onto the page.
-4. Confirm installation if Chrome allows it.
-
-If Chrome blocks it, use the **Recommended Method** above.
+4. Enable **Developer mode** (top-right).
+5. Click **Load unpacked**.
+6. Select the folder that contains `manifest.json`.
+7. SaveIt is now installed. Keep the folder in place so Chrome can load it.
 
 ---
 
