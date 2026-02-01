@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -77,6 +77,42 @@
       transform: translateY(-2px);
     }
 
+    .btn-secondary {
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      color: #e2e8f0;
+    }
+
+    .btn-secondary:hover {
+      border-color: rgba(148, 163, 184, 0.7);
+      transform: translateY(-2px);
+    }
+
+    .policy {
+      margin-top: 40px;
+      padding: 24px;
+      border-radius: 16px;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      text-align: left;
+    }
+
+    .policy h2 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+    }
+
+    .policy p {
+      margin-bottom: 16px;
+      color: #e2e8f0;
+    }
+
+    .policy ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+      color: #cbd5f5;
+      line-height: 1.6;
+    }
+
     footer {
       margin-top: 40px;
       font-size: 14px;
@@ -97,8 +133,20 @@
       </a>
     </div>
 
+    <section class="policy" id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>SaveIt only accesses the website content you choose to save. We do not collect,
+      store, or transmit any personal data.</p>
+      <ul>
+        <li>We only read the content of the current website page you trigger.</li>
+        <li>We do not access passwords, cookies, browsing history, or other tabs.</li>
+        <li>No data is stored or retained by the extension or any server.</li>
+      </ul>
+      <a href="privacy.html" class="btn btn-secondary">Read the full privacy policy</a>
+    </section>
+
     <footer id="install">
-      Load it via <strong>chrome://extensions</strong> → Developer mode → Load unpacked
+      Load it via <strong>chrome://extensions</strong> -> Developer mode -> Load unpacked
     </footer>
   </div>
 </body>

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "SaveIt: Simple File Downloader",
   "version": "1.0",
-  "description": "Download files from direct URLs",
+  "description": "SaveIt is a simple chrome extension where you can input a URL and get the file from that endpoint.",
   "permissions": ["downloads"],
   "action": {
     "default_popup": "popup/popup.html",
